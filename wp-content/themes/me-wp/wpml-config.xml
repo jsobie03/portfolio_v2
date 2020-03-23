@@ -1,0 +1,15 @@
+<wpml-config>
+    <admin-texts>
+        <key name="vpt_option">
+            <key name="threeD_menu_phone" />
+            <key name="footer_copyright" />
+            <key name="footer_title" />
+            <key name="footer_title_abv_txt" />
+            <key name="footer_form_shortcode" />
+            <key name="footer_email" />
+            <key name="footer_phone" />
+            <key name="footer_description_txt" />
+            <key name="error_404" />
+        </key>
+    </admin-texts>
+</wpml-config>

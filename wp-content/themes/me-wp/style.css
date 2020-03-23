@@ -1,0 +1,150 @@
+/*
+Theme Name: ME WP
+Theme URI: http://themeforest.net/user/m_adnan/portfolio
+Author: M_Adnan
+Author URI: http://themeforest.net/user/m_adnan
+Description: Me is a Multi Pages WordPress portfolio & CV / Resume theme for Designer, Developer, Freelancer Artist, Photographer & Can be use for Personal Pages.
+Version: 2.1
+License: GNU General Public License version 1.0
+License URI: http://themeforest.net/user/m_adnan
+Tags: one-column, two-columns, three-columns,four-columns, right-sidebar, custom-colors, custom-menu, featured-images, theme-options, translation-ready
+Text Domain: me-wp
+*/
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Caption
+ * 6.0 - Galleries
+ * 7.0 - Audio / Video
+ * 8.0 - RTL
+ */
+/**
+ * 1.0 - Body
+ */
+.pagination>li>a, .pagination>li>span {
+    color: #0be0b0;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span,
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-radius: 0;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus,
+.pagination>li>span:hover,.pagination>li>a.current {
+    color: #fff;
+    background-color: #443a8b;
+    border-color: #443a8b;
+}
+.w100 {
+    width: 100% !important;
+}
+.clearfix {
+    clear: both;
+}
+.admin-avatar img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.add-comments li textarea {
+    margin-bottom: 40px;
+}
+.logged-in-as {
+    padding-left: 15px;
+}
+.form-submit {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+.form-submit input[type=submit] {
+    background: none;
+}
+.comments ul.children {
+    margin-left: 25px;
+}
+@media (min-width: 768px) {
+    .header.df-transparent {
+        margin-top: 0;
+        position: relative;
+    }
+}
+#site-header img {
+    width: 100%;
+}
+.contact-form button:hover,.btn-large:hover{
+    color: #fff !important;
+}
+.wp-caption {
+    max-width: 100% !important;
+    height: auto;
+}
+.wp-caption-text{
+    color: #999;
+}
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+}
+.screen-reader-text {}
+.gallery-caption {
+    padding:5px 1%;
+    font-size:90%;
+}
+.bypostauthor{
+    position: relative;
+}
+.sticky{}
+.bp-770-bottom .sub-bnr-home,.page-id-117 .sub-bnr-home,
+.page-id-154 .sub-bnr-home,.page-id-143 .sub-bnr-home,.page-id-122 .sub-bnr-home,
+.page-id-255 .sub-bnr-home,.page-id-259 .sub-bnr-home,.page-id-180 .sub-bnr-home,
+.category-web-design .sub-bnr-home,.category-travel .sub-bnr-home{
+    background-position: 770px bottom;
+}
+.feature-img {
+    margin-bottom: 50px;
+}
+p.form-submit input[type=submit] {
+    width: auto !important;
+}
+
+.button-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: none;
+  background: #145474;
+  color: #fff;
+  font-size: 26px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+
+.button-top-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
